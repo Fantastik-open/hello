@@ -9,6 +9,18 @@ body, input, button, a {
   text-decoration: none;
 }
 
+button {
+  text-align: center;
+  cursor: pointer;
+  font-family: Roboto,arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+}
+
 .switch {
   position: absolute;
   padding: 5px;
@@ -18,7 +30,6 @@ body, input, button, a {
 #advanced {
   position: absolute;
   top: 5px;
-  right: 60px;
   padding: 5px;
   /*border: 2px solid #0070fa;*/
 }
@@ -26,7 +37,6 @@ body, input, button, a {
 #image {
   position: absolute;
   top: 5px;
-  right: 10px;
   padding: 5px;
   /*border: 2px solid #0070fa;*/
 }
@@ -34,7 +44,6 @@ body, input, button, a {
 #google {
   position: absolute;
   top: 5px;
-  right: 10px;
   padding: 5px;
   /*border: 2px solid #0070fa;*/
 }
@@ -81,15 +90,6 @@ body, input, button, a {
   border: 1px solid #303134;
   border-radius: 4px;
   color: #e8eaed;
-  font-family: Roboto,arial,sans-serif;
-  font-size: 14px;
-  margin: 11px 4px;
-  padding: 0 16px;
-  line-height: 27px;
-  height: 36px;
-  min-width: 54px;
-  text-align: center;
-  cursor: pointer;
 }
 
 .advsearchbar {
@@ -104,8 +104,12 @@ body, input, button, a {
 }
 
 .searchtable {
-  width: 75%;
+  width: 100%;
   margin: 50px;
+}
+
+.searchtable td {
+  padding: 5px;
 }
 
 .label {
@@ -113,26 +117,26 @@ body, input, button, a {
 }
 
 .logosmall {
-  max-width: 5%;
+  max-width: 100px;
   margin: 15px;
 }
 
 .advsearchtxt {
   color: #f28b82;
+  padding: 0px 25px 0px 25px;
 }
 
 .advsearchbtn {
+  position: absolute;
+  left: 50%;
   background-color: #8ab4f8;
   border: 1px solid #303134;
   border-radius: 4px;
   color: #202124;
   font-family: Roboto,arial,sans-serif;
   font-size: 12px;
-  margin: 11px 4px;
   padding: 0 16px;
   line-height: 27px;
   height: 30px;
   min-width: 54px;
-  text-align: center;
-  cursor: pointer;
 }
